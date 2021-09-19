@@ -1,0 +1,31 @@
+section.sobre {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-family: 'Staatliches', sans-serif;
+        font-size: 45px;
+        color: #4a4c50;
+    }
+
+    .texto {
+        font-size: 22px;
+    }
+
+    .habilidades {
+        font-size: 24px;
+        font-family: 'Staatliches', sans-serif;
+
+        h5 {
+            color: #34495e;
+            font-size: 30px;
+            margin: 35px 0 15px 0;
+        }
+
+        i {
+            margin-right: 10px;
+            color: #2ecc71;
+        }
+    }
+}
