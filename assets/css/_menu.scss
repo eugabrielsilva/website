@@ -1,0 +1,40 @@
+section.menu {
+    position: fixed;
+    right: 50px;
+    top: 40px;
+    z-index: 5;
+
+    .list-group {
+        flex-direction: row;
+        border-radius: 0;
+    }
+
+    .list-group-item {
+        padding: 0;
+        background: none;
+        border: none;
+    }
+
+    a {
+        transition: 0.1s color;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 0 10px;
+
+        &.active {
+            margin-top: 0 !important;
+            border-bottom: 5px solid white;
+        }
+    }
+
+    &.dark {
+        a {
+            color: #242629;
+
+            &.active {
+                border-color: #242629;
+            }
+        }
+    }
+}

@@ -1,9 +1,9 @@
 section.home {
-    font-family: 'Staatliches', sans-serif;
     position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
+    scroll-snap-align: start;
 
     &:after {
         content: '';
