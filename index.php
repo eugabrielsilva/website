@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('04/10/2021 12:14');
+$version = md5('04/10/2021 14:00');
 ?>
 
 <!DOCTYPE html>
@@ -183,6 +183,12 @@ $version = md5('04/10/2021 12:14');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://alreletrica.com.br" target="_blank">
+                                        <img src="assets/portfolio/alr.png">
+                                        <div class="caption">ALR Materiais Elétricos</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://clinicasaomatheusgo.com.br" target="_blank">
                                         <img src="assets/portfolio/saomatheus.png?version=<?= $version ?>">
                                         <div class="caption">Clínica São Matheus</div>
@@ -222,6 +228,12 @@ $version = md5('04/10/2021 12:14');
                                     <a href="https://crieseubanco.com.br" target="_blank">
                                         <img src="assets/portfolio/crieseubanco.png?version=<?= $version ?>">
                                         <div class="caption">Crie Seu Banco Digital</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://gynaliancas.com.br" target="_blank">
+                                        <img src="assets/portfolio/gyn.png?version=<?= $version ?>">
+                                        <div class="caption">Gyn Alianças</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -279,15 +291,9 @@ $version = md5('04/10/2021 12:14');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://gynaliancas.com.br" target="_blank">
-                                        <img src="assets/portfolio/gyn.png?version=<?= $version ?>">
-                                        <div class="caption">Gyn Alianças</div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://alreletrica.com.br" target="_blank">
-                                        <img src="assets/portfolio/alr.png">
-                                        <div class="caption">ALR Materiais Elétricos</div>
+                                    <a href="https://implantecapilarprohair.com.br/implante-capilar-fue" target="_blank">
+                                        <img src="assets/portfolio/lpprohair.png">
+                                        <div class="caption">Implante Capilar Prohair</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -300,6 +306,12 @@ $version = md5('04/10/2021 12:14');
                                     <a href="https://safrahomecenter.com.br" target="_blank">
                                         <img src="assets/portfolio/safra.png?version=<?= $version ?>">
                                         <div class="caption">Safra Home Center</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://eugabrielsilva.tk/worship" target="_blank">
+                                        <img src="assets/portfolio/worship.png?version=<?= $version ?>">
+                                        <div class="caption">Worship Sounds</div>
                                     </a>
                                 </div>
                             </div>
