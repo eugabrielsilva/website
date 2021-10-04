@@ -1,8 +1,8 @@
 section.contato {
     min-height: 100vh;
     display: flex;
+    padding: 50px 0;
     align-items: center;
-    scroll-snap-align: start;
 
     h1 {
         text-align: center;
@@ -17,9 +17,18 @@ section.contato {
         line-height: 1;
         margin-bottom: 20px;
         text-decoration: none;
+        transition: 0.5s all;
 
         &:last-child {
             margin-bottom: 0;
+        }
+
+        &:hover {
+            transform: translateY(-3px);
+
+            i {
+                background-color: #525252;
+            }
         }
 
         i {
@@ -32,6 +41,7 @@ section.contato {
             font-size: 30px;
             border-radius: 100%;
             margin-right: 15px;
+            transition: 0.5s all;
             background-color: #242629;
         }
 
@@ -71,6 +81,90 @@ section.contato {
             padding: 10px 30px;
             font-size: 22px;
             float: right;
+            transition: 0.5s all;
+
+            &:hover {
+                background-color: #525252;
+            }
+
+            &.sucesso {
+                background-color: #27ae60;
+            }
+
+            &.erro {
+                background-color: #e74c3c;
+            }
+        }
+    }
+
+    @media (max-width: $breakpointXl) {
+        h1 {
+            font-size: 40px;
+        }
+
+        .phone {
+            i {
+                width: 50px;
+                height: 50px;
+                font-size: 25px;
+            }
+
+            span {
+                strong {
+                    font-size: 23px;
+                }
+            }
+        }
+
+        form {
+            input,
+            textarea {
+                font-size: 20px;
+            }
+
+            button {
+                padding: 8px 25px;
+                font-size: 19px;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        padding: 30px 0;
+
+        .phone {
+            margin-left: 10px;
+            span {
+                font-size: 20px;
+                strong {
+                    font-size: 18px;
+                }
+            }
+
+            i {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        form {
+            input,
+            textarea {
+                padding: 8px 15px;
+                font-size: 17px;
+            }
+
+            button {
+                padding: 7px 24px;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
         }
     }
 }

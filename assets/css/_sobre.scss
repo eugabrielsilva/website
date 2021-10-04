@@ -1,8 +1,8 @@
 section.sobre {
     min-height: 100vh;
     display: flex;
+    padding: 50px 0;
     align-items: center;
-    scroll-snap-align: start;
 
     h1 {
         font-size: 45px;
@@ -18,6 +18,13 @@ section.sobre {
         border-radius: 100%;
         display: block;
         filter: grayscale(1);
+        transition: 0.5s all;
+
+        &:hover {
+            transform: translateY(-5px) translateX(5px);
+            box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.08);
+            filter: none;
+        }
     }
 
     .texto {
@@ -37,6 +44,68 @@ section.sobre {
         i {
             margin-right: 10px;
             color: #2ecc71;
+        }
+    }
+
+    @media (max-width: $breakpointXl) {
+        h1 {
+            font-size: 38px;
+        }
+
+        .foto {
+            max-width: 450px;
+        }
+
+        .texto {
+            font-size: 18px;
+        }
+
+        .habilidades {
+            font-size: 20px;
+
+            h5 {
+                font-size: 26px;
+            }
+        }
+    }
+
+    @media (max-width: $breakpointLg) {
+        .foto {
+            max-width: 400px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        padding: 30px 0;
+
+        .habilidades {
+            font-size: 18px;
+
+            .item {
+                margin: 5px 10px;
+            }
+
+            h5 {
+                font-size: 22px;
+                text-align: center;
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .texto {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .foto {
+            max-width: 180px;
+            margin-bottom: 30px;
         }
     }
 }
