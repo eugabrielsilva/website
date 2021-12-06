@@ -99,7 +99,7 @@ $version = md5('06/12/2021 10:45');
                     <div class="col-lg-8 col-xl-6 col-xxl-5 pe-lg-5">
                         <h1>Oi, eu sou o Gabriel!</h1>
                         <div class="texto">
-                            Graduando em Análise e Desenvolvimento de Sistemas, trabalho a 5 anos com desenvolvimento full stack para web. Tenho vasta experiência em websites institucionais com foco em marketing digital, implementação de layouts responsivos, desenvolvimento de e-catálogos, sistemas online em PHP e sistemas de gerenciamento de conteúdo (CMS).
+                            Graduando em Análise e Desenvolvimento de Sistemas, trabalho a 5 anos com desenvolvimento full stack para web. Tenho sólida experiência em websites institucionais com foco em marketing digital, implementação de layouts responsivos, desenvolvimento de e-catálogos, sistemas online em PHP e sistemas de gerenciamento de conteúdo (CMS).
                         </div>
                         <div class="habilidades">
                             <h5>Linguagens que eu amo:</h5>
@@ -108,13 +108,13 @@ $version = md5('06/12/2021 10:45');
                                     <i class="fas fa-check-circle"></i>PHP
                                 </div>
                                 <div class="item">
+                                    <i class="fas fa-check-circle"></i>JAVASCRIPT
+                                </div>
+                                <div class="item">
                                     <i class="fas fa-check-circle"></i>HTML
                                 </div>
                                 <div class="item">
                                     <i class="fas fa-check-circle"></i>CSS / SCSS
-                                </div>
-                                <div class="item">
-                                    <i class="fas fa-check-circle"></i>JAVASCRIPT
                                 </div>
                                 <div class="item">
                                     <i class="fas fa-check-circle"></i>MYSQL
@@ -201,7 +201,7 @@ $version = md5('06/12/2021 10:45');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://plasbig.com.br.br" target="_blank">
+                                    <a href="https://plasbig.com.br" target="_blank">
                                         <img src="assets/portfolio/plasbig.png?version=<?= $version ?>">
                                         <div class="caption">Plasbig</div>
                                     </a>
