@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('04/10/2021 14:00');
+$version = md5('06/12/2021 10:45');
 ?>
 
 <!DOCTYPE html>
@@ -177,6 +177,12 @@ $version = md5('04/10/2021 14:00');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://iog.net.br" target="_blank">
+                                        <img src="assets/portfolio/iog.png?version=<?= $version ?>">
+                                        <div class="caption">Instituto de Olhos de Goiânia</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://nuvemmoda.com.br" target="_blank">
                                         <img src="assets/portfolio/nuvem.png?version=<?= $version ?>">
                                         <div class="caption">Nuvem Moda</div>
@@ -192,6 +198,12 @@ $version = md5('04/10/2021 14:00');
                                     <a href="https://clinicasaomatheusgo.com.br" target="_blank">
                                         <img src="assets/portfolio/saomatheus.png?version=<?= $version ?>">
                                         <div class="caption">Clínica São Matheus</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://plasbig.com.br.br" target="_blank">
+                                        <img src="assets/portfolio/plasbig.png?version=<?= $version ?>">
+                                        <div class="caption">Plasbig</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -246,6 +258,12 @@ $version = md5('04/10/2021 14:00');
                                     <a href="https://trattofmx.com.br" target="_blank">
                                         <img src="assets/portfolio/trattofmx.png?version=<?= $version ?>">
                                         <div class="caption">Tratto Agronegócios</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://gomidias.com.br" target="_blank">
+                                        <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
+                                        <div class="caption">go!midias</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
