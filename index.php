@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('06/12/2021 10:45');
+$version = md5('15/12/2021 21:10');
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ $version = md5('06/12/2021 10:45');
     <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites com foco em marketing digital e sistemas online.">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css?version=<?= $version ?>">
     <link rel="shortcut icon" href="assets/images/favicon.png?version=<?= $version ?>">
@@ -207,6 +207,12 @@ $version = md5('06/12/2021 10:45');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://domambientes.com.br" target="_blank">
+                                        <img src="assets/portfolio/dom.png?version=<?= $version ?>">
+                                        <div class="caption">DOM Ambientes</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br" target="_blank">
                                         <img src="assets/portfolio/prohair.png?version=<?= $version ?>">
                                         <div class="caption">Clínica Prohair</div>
@@ -236,10 +242,18 @@ $version = md5('06/12/2021 10:45');
                                         <div class="caption">Clínica HD</div>
                                     </a>
                                 </div>
+                            </div>
+                            <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://crieseubanco.com.br" target="_blank">
                                         <img src="assets/portfolio/crieseubanco.png?version=<?= $version ?>">
                                         <div class="caption">Crie Seu Banco Digital</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://universoagvnacional.com.br" target="_blank">
+                                        <img src="assets/portfolio/agv.png?version=<?= $version ?>">
+                                        <div class="caption">Universo AGV</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -264,6 +278,12 @@ $version = md5('06/12/2021 10:45');
                                     <a href="https://gomidias.com.br" target="_blank">
                                         <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
                                         <div class="caption">go!midias</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://tubisa.com.br" target="_blank">
+                                        <img src="assets/portfolio/tubisa.png?version=<?= $version ?>">
+                                        <div class="caption">Tubisa</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -327,12 +347,28 @@ $version = md5('06/12/2021 10:45');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://viveiroambiental.com.br" target="_blank">
+                                        <img src="assets/portfolio/viveiro.png?version=<?= $version ?>">
+                                        <div class="caption">Viveiro Ambiental</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://eugabrielsilva.tk/worship" target="_blank">
                                         <img src="assets/portfolio/worship.png?version=<?= $version ?>">
                                         <div class="caption">Worship Sounds</div>
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="text-center">
+                            <a onclick="toggleCollapse()" class="ver-tudo" href="" data-bs-toggle="collapse" data-bs-target="#portfolio-completo">
+                                <span class="ver">
+                                    Ver tudo <i class="fas fa-chevron-down ms-2"></i>
+                                </span>
+                                <span class="fechar">
+                                    Fechar <i class="fas fa-chevron-up ms-2"></i>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -406,7 +442,7 @@ $version = md5('06/12/2021 10:45');
 
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/scripts.js?version=<?= $version ?>"></script>
 </body>
 

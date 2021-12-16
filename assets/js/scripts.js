@@ -17,6 +17,10 @@ function scrollToElement(e, element, mobile = false) {
     document.querySelector(element).scrollIntoView({behavior: 'smooth'});
 }
 
+function toggleCollapse() {
+    $('.ver-tudo').toggleClass('aberto');
+}
+
 function toggleMenu(e) {
     e.preventDefault();
     $('.menu-dropdown').toggleClass('show');

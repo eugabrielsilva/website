@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   font-family: "Staatliches", sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body ::-webkit-scrollbar {
+  display: none;
 }
 
 .container {
@@ -460,6 +465,25 @@ section.portfolio .categorias a {
 section.portfolio .categorias a.active {
   background-color: #f1c40f;
 }
+section.portfolio .ver-tudo {
+  color: white;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 24px;
+  text-decoration: none;
+}
+section.portfolio .ver-tudo .ver {
+  display: block;
+}
+section.portfolio .ver-tudo .fechar {
+  display: none;
+}
+section.portfolio .ver-tudo.aberto .ver {
+  display: none;
+}
+section.portfolio .ver-tudo.aberto .fechar {
+  display: block;
+}
 section.portfolio .portfolio {
   margin-top: 30px;
   position: relative;
@@ -508,6 +532,9 @@ section.portfolio .portfolio a img {
 @media (max-width: 991px) {
   section.portfolio {
     padding: 30px 0;
+  }
+  section.portfolio .ver-tudo {
+    font-size: 20px;
   }
   section.portfolio h1 {
     font-size: 36px;
