@@ -177,6 +177,12 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://crm.raddar.digital" target="_blank">
+                                        <img src="assets/portfolio/crm.png?version=<?= $version ?>">
+                                        <div class="caption">CRM Raddar Digital</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://iog.net.br" target="_blank">
                                         <img src="assets/portfolio/iog.png?version=<?= $version ?>">
                                         <div class="caption">Instituto de Olhos de Goiânia</div>
@@ -236,14 +242,14 @@ $version = md5('15/12/2021 21:10');
                                         <div class="caption">VCcont</div>
                                     </a>
                                 </div>
+                            </div>
+                            <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://clinicalipohd.com.br" target="_blank">
                                         <img src="assets/portfolio/clinicahd.png?version=<?= $version ?>">
                                         <div class="caption">Clínica HD</div>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://crieseubanco.com.br" target="_blank">
                                         <img src="assets/portfolio/crieseubanco.png?version=<?= $version ?>">
@@ -275,9 +281,15 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://gomidias.com.br" target="_blank">
+                                    <a href="https://gomidias.com.br/site" target="_blank">
                                         <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
                                         <div class="caption">go!midias</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://flexbanner.com.br/site" target="_blank">
+                                        <img src="assets/portfolio/flexbanner.png?version=<?= $version ?>">
+                                        <div class="caption">Flex Banner</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -338,12 +350,6 @@ $version = md5('15/12/2021 21:10');
                                     <a href="https://jmempilhadeira.com.br" target="_blank">
                                         <img src="assets/portfolio/jmempilhadeira.png?version=<?= $version ?>">
                                         <div class="caption">JM Empilhadeira</div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://safrahomecenter.com.br" target="_blank">
-                                        <img src="assets/portfolio/safra.png?version=<?= $version ?>">
-                                        <div class="caption">Safra Home Center</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
