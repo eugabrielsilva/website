@@ -6,6 +6,12 @@
         header('Location: ./');
     }
 
+    // Dependências
+    $config = require('lib/Config.php');
+    require('lib/Exception.php');
+    require('lib/PHPMailer.php');
+    require('lib/SMTP.php');
+
     // Dados
     if(!empty($_POST['nome']) && !empty($_POST['email'])){
         // Valida dados
@@ -23,12 +29,20 @@
                     {$mensagem}";
 
         // Envia e-mail
-        $version = phpversion();
-        $headers = "From: {$nome} <{$email}>\n";
-        $headers .= "X-Mailer: PHP/{$version}\n";
-        $headers .= "MIME-Version: 1.0\n";
-        $headers .= "Content-Type: text/html; charset=utf-8\n";
-        $result = mail('contato@eugabrielsilva.tk', 'Contato Site', $texto, $headers);
+        $mail = new PHPMailer\PHPMailer\PHPMailer(true);
+        $mail->isSMTP();
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = 'ssl';
+        $mail->Host = $config['host'];
+        $mail->Username = $config['user'];
+        $mail->Password = $config['password'];
+        $mail->Port = $config['port'];
+        $mail->setFrom($config['user'], 'Gabriel Silva');
+        $mail->addAddress('contato@eugabrielsilva.tk', 'Gabriel Silva');
+        $mail->isHTML();
+        $mail->Subject = 'Contato Site';
+        $mail->Body = $texto;
+        $result = $mail->send();
 
         // Retorna resultado
         header('Content-Type: application/json');
