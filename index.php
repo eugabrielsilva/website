@@ -1,14 +1,14 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('15/12/2021 21:10');
+$version = md5('19/03/2021 12:35');
 ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Gabriel Silva | Web Developer</title>
+    <title>Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel</title>
 
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1">
@@ -18,17 +18,17 @@ $version = md5('15/12/2021 21:10');
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="imagetoolbar" content="no">
-    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites com foco em marketing digital e sistemas online.">
-    <meta property="og:site_name" content="Gabriel Silva | Web Developer">
+    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
+    <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
     <meta property="og:url" content="https://eugabrielsilva.tk">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Gabriel Silva | Web Developer">
+    <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
     <meta property="og:image" content="ogicon.png?version=<?= $version ?>">
-    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites com foco em marketing digital e sistemas online.">
+    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
     <meta name="twitter:card" content="summary">
     <meta name="csrf_token" content="<?= $_SESSION['token'] ?>">
-    <meta name="twitter:title" content="Gabriel Silva | Web Developer">
-    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites com foco em marketing digital e sistemas online.">
+    <meta name="twitter:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
+    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
@@ -99,7 +99,7 @@ $version = md5('15/12/2021 21:10');
                     <div class="col-lg-8 col-xl-6 col-xxl-5 pe-lg-5">
                         <h1>Oi, eu sou o Gabriel!</h1>
                         <div class="texto">
-                            Graduando em Análise e Desenvolvimento de Sistemas, trabalho a 5 anos com desenvolvimento full stack para web. Tenho sólida experiência em websites institucionais com foco em marketing digital, implementação de layouts responsivos, desenvolvimento de e-catálogos, sistemas online em PHP e sistemas de gerenciamento de conteúdo (CMS).
+                            Graduando em Análise e Desenvolvimento de Sistemas pela UniGoiás, trabalho a mais de 5 anos com desenvolvimento full stack para web. Tenho sólida experiência em websites institucionais, implementação de layouts responsivos, desenvolvimento de e-catálogos, sistemas online em PHP e sistemas de gerenciamento de conteúdo (CMS).
                         </div>
                         <div class="habilidades">
                             <h5>Linguagens que eu amo:</h5>
@@ -153,7 +153,7 @@ $version = md5('15/12/2021 21:10');
                                     <i class="fas fa-check-circle"></i>CORELDRAW
                                 </div>
                                 <div class="item">
-                                    <i class="fas fa-check-circle"></i>OFFICE
+                                    <i class="fas fa-check-circle"></i>FIGMA
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://dentaladelar.com.br/site" target="_blank">
+                                    <a href="https://dentaladelar.com.br" target="_blank">
                                         <img src="assets/portfolio/dental.png?version=<?= $version ?>">
                                         <div class="caption">Dental Adelar</div>
                                     </a>
@@ -237,7 +237,7 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://kapitalsolucoes.com.br/site" target="_blank">
+                                    <a href="https://kapitalsolucoes.com.br" target="_blank">
                                         <img src="assets/portfolio/kapital.png?version=<?= $version ?>">
                                         <div class="caption">Kapital Bank</div>
                                     </a>
@@ -299,13 +299,13 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://gomidias.com.br/site" target="_blank">
+                                    <a href="https://gomidias.com.br" target="_blank">
                                         <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
                                         <div class="caption">go!midias</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://flexbanner.com.br/site" target="_blank">
+                                    <a href="https://flexbanner.com.br" target="_blank">
                                         <img src="assets/portfolio/flexbanner.png?version=<?= $version ?>">
                                         <div class="caption">Flex Banner</div>
                                     </a>
@@ -341,6 +341,12 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://goldensolenergiasolar.com.br" target="_blank">
+                                        <img src="assets/portfolio/golden.png?version=<?= $version ?>">
+                                        <div class="caption">Golden Sol</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="http://drluizotaviocorrea.com.br" target="_blank">
                                         <img src="assets/portfolio/drluiz.png?version=<?= $version ?>">
                                         <div class="caption">Dr. Luiz Otávio Corrêa</div>
@@ -371,6 +377,12 @@ $version = md5('15/12/2021 21:10');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://protecaoafamilia.com" target="_blank">
+                                        <img src="assets/portfolio/protecao.png?version=<?= $version ?>">
+                                        <div class="caption">Proteção à Família</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://viveiroambiental.com.br" target="_blank">
                                         <img src="assets/portfolio/viveiro.png?version=<?= $version ?>">
                                         <div class="caption">Viveiro Ambiental</div>
@@ -380,6 +392,12 @@ $version = md5('15/12/2021 21:10');
                                     <a href="https://eugabrielsilva.tk/worship" target="_blank">
                                         <img src="assets/portfolio/worship.png?version=<?= $version ?>">
                                         <div class="caption">Worship Sounds</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://eugabrielsilva.tk/colorama" target="_blank">
+                                        <img src="assets/portfolio/colorama.png?version=<?= $version ?>">
+                                        <div class="caption">Colorama</div>
                                     </a>
                                 </div>
                             </div>
