@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('19/03/2021 12:35');
+$version = md5('22/06/2022 20:30');
 ?>
 
 <!DOCTYPE html>
@@ -196,7 +196,7 @@ $version = md5('19/03/2021 12:35');
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://alreletrica.com.br" target="_blank">
-                                        <img src="assets/portfolio/alr.png">
+                                        <img src="assets/portfolio/alr.png?version=<?= $version ?>">
                                         <div class="caption">ALR Materiais Elétricos</div>
                                     </a>
                                 </div>
@@ -244,6 +244,12 @@ $version = md5('19/03/2021 12:35');
                                 </div>
                             </div>
                             <div class="row collapse" id="portfolio-completo">
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://amedicadescartaveis.com.br" target="_blank">
+                                        <img src="assets/portfolio/amedica.png?version=<?= $version ?>">
+                                        <div class="caption">Amédica Descartáveis</div>
+                                    </a>
+                                </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://institutoabracodemae.org.br" target="_blank">
                                         <img src="assets/portfolio/abraco.png?version=<?= $version ?>">
@@ -335,9 +341,21 @@ $version = md5('19/03/2021 12:35');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://clinicacapelli.com.br" target="_blank">
+                                        <img src="assets/portfolio/capelli.png?version=<?= $version ?>">
+                                        <div class="caption">Clínica Capelli</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://wikisistemas.com.br" target="_blank">
                                         <img src="assets/portfolio/wiki.png?version=<?= $version ?>">
                                         <div class="caption">Wiki Sistemas</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://minascouros.com.br" target="_blank">
+                                        <img src="assets/portfolio/minas.png?version=<?= $version ?>">
+                                        <div class="caption">Minas Couros</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -366,7 +384,7 @@ $version = md5('19/03/2021 12:35');
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br/implante-capilar-fue" target="_blank">
-                                        <img src="assets/portfolio/lpprohair.png">
+                                        <img src="assets/portfolio/lpprohair.png?version=<?= $version ?>">
                                         <div class="caption">Implante Capilar Prohair</div>
                                     </a>
                                 </div>
@@ -386,6 +404,12 @@ $version = md5('19/03/2021 12:35');
                                     <a href="https://viveiroambiental.com.br" target="_blank">
                                         <img src="assets/portfolio/viveiro.png?version=<?= $version ?>">
                                         <div class="caption">Viveiro Ambiental</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://lacobulls.com.br" target="_blank">
+                                        <img src="assets/portfolio/laco.png?version=<?= $version ?>">
+                                        <div class="caption">Laço Bulls</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">

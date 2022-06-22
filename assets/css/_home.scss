@@ -90,6 +90,7 @@ section.home {
         height: 100%;
         object-fit: cover;
         object-position: center;
+        pointer-events: none;
     }
 
     .title {
@@ -98,6 +99,7 @@ section.home {
         margin: auto;
         max-width: -moz-fit-content;
         max-width: fit-content;
+        user-select: none;
 
         h1,
         h2 {

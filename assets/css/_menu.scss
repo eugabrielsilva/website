@@ -3,6 +3,7 @@ section.menu {
     right: 50px;
     top: 40px;
     z-index: 5;
+    user-select: none;
 
     .list-group {
         flex-direction: row;
