@@ -99,10 +99,10 @@ $version = md5('22/06/2022 20:30');
                     <div class="col-lg-8 col-xl-6 col-xxl-5 pe-lg-5">
                         <h1>Oi, eu sou o Gabriel!</h1>
                         <div class="texto">
-                            Graduando em Análise e Desenvolvimento de Sistemas pela UniGoiás, trabalho a mais de 5 anos com desenvolvimento full stack para web. Tenho sólida experiência em websites institucionais, implementação de layouts responsivos, desenvolvimento de e-catálogos, sistemas online em PHP e sistemas de gerenciamento de conteúdo (CMS).
+                            Graduando em Análise e Desenvolvimento de Sistemas pela UniGoiás, trabalho a mais de 5 anos com <strong>desenvolvimento full stack para web</strong>. Tenho sólida experiência em websites institucionais, implementação de layouts responsivos, desenvolvimento de e-catálogos, <strong>sistemas web em PHP/JS</strong>, bancos de dados e sistemas de gerenciamento de conteúdo.
                         </div>
                         <div class="habilidades">
-                            <h5>Linguagens que eu amo:</h5>
+                            <h5>Linguagens que eu amo ❤️:</h5>
                             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between">
                                 <div class="item">
                                     <i class="fas fa-check-circle"></i>PHP
@@ -120,7 +120,7 @@ $version = md5('22/06/2022 20:30');
                                     <i class="fas fa-check-circle"></i>MYSQL
                                 </div>
                             </div>
-                            <h5>Frameworks que eu trabalho:</h5>
+                            <h5>Frameworks que eu trabalho 🧑🏻‍💻:</h5>
                             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between">
                                 <div class="item">
                                     <i class="fas fa-check-circle"></i>LARAVEL
@@ -138,7 +138,7 @@ $version = md5('22/06/2022 20:30');
                                     <i class="fas fa-check-circle"></i>JQUERY
                                 </div>
                             </div>
-                            <h5>Ferramentas que eu utilizo:</h5>
+                            <h5>Ferramentas que eu utilizo 🛠:</h5>
                             <div class="d-flex flex-wrap justify-content-center justify-content-lg-between">
                                 <div class="item">
                                     <i class="fas fa-check-circle"></i>GIT
@@ -167,7 +167,7 @@ $version = md5('22/06/2022 20:30');
             <div class="container">
                 <div class="row principal">
                     <div class="col-lg-10 offset-lg-1">
-                        <h1>PORTFÓLIO</h1>
+                        <h1>MEU PORTFÓLIO</h1>
                         <div class="portfolio">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -446,7 +446,7 @@ $version = md5('22/06/2022 20:30');
             <div class="container">
                 <div class="row principal align-items-start">
                     <div class="col-lg-10 offset-lg-1">
-                        <h1>CONTATO</h1>
+                        <h1>E AÍ, VAMOS DESENVOLVER ALGO?</h1>
                     </div>
                     <div class="col-md-4 offset-md-2 pe-md-4 pe-xxl-5">
                         <form onsubmit="enviarEmail(event)">
