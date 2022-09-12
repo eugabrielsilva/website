@@ -706,3 +706,25 @@ section.footer {
     padding: 15px;
   }
 }
+
+section.whatsapp-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+  background-color: #25d366;
+  border-radius: 100%;
+  text-decoration: none;
+  font-size: 40px;
+  transition: 0.5s all;
+  z-index: 5;
+}
+section.whatsapp-button a:hover {
+  background-color: #169e48;
+  transform: translateY(-3px);
+}

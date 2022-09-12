@@ -1,7 +1,8 @@
 <?php
 session_start();
 $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('22/06/2022 20:30');
+$version = md5('11/09/2022 21:00');
+$message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mais sobre seu trabalho.');
 ?>
 
 <!DOCTYPE html>
@@ -79,7 +80,7 @@ $version = md5('22/06/2022 20:30');
                     <h2>WEB DEVELOPER</h2>
                 </div>
                 <div class="contatos">
-                    <a href="https://wa.me/5562998358851" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
                     <a href="mailto:contato@eugabrielsilva.tk" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
                     <a href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone"><i class="fab fa-instagram"></i></a>
                     <a href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone"><i class="fab fa-linkedin"></i></a>
@@ -446,7 +447,7 @@ $version = md5('22/06/2022 20:30');
             <div class="container">
                 <div class="row principal align-items-start">
                     <div class="col-lg-10 offset-lg-1">
-                        <h1>E AÍ, VAMOS DESENVOLVER ALGO?</h1>
+                        <h1>E AÍ, VAMOS DESENVOLVER ALGO JUNTOS?</h1>
                     </div>
                     <div class="col-md-4 offset-md-2 pe-md-4 pe-xxl-5">
                         <form onsubmit="enviarEmail(event)">
@@ -458,7 +459,7 @@ $version = md5('22/06/2022 20:30');
                         </form>
                     </div>
                     <div class="col-md-5 ps-lg-5">
-                        <a href="https://wa.me/5562998358851" target="_blank" class="phone">
+                        <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone">
                             <i class="fab fa-whatsapp"></i>
                             <span>
                                 WHATSAPP
@@ -503,6 +504,13 @@ $version = md5('22/06/2022 20:30');
             <div class="container">
                 © Gabriel Silva - <?= date('Y') ?>
             </div>
+        </section>
+
+        <!-- WhatsApp -->
+        <section class="whatsapp-button">
+            <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </section>
     </div>
 
