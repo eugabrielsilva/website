@@ -53,7 +53,6 @@ section.menu {
   z-index: 5;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 section.menu .list-group {
@@ -204,7 +203,7 @@ section.home:after {
   top: 0;
   left: 0;
   background-color: #242629;
-  opacity: 0.9;
+  opacity: 0.7;
   pointer-events: none;
 }
 section.home .arrow {
@@ -214,18 +213,7 @@ section.home .arrow {
   z-index: 3;
   right: 0;
   bottom: 50px;
-  -webkit-animation: infinite-down 0.6s steps(10) infinite alternate;
-          animation: infinite-down 0.6s steps(10) infinite alternate;
-}
-@-webkit-keyframes infinite-down {
-  from {
-    opacity: 0.1;
-    bottom: 80px;
-  }
-  to {
-    opacity: 1;
-    bottom: 50px;
-  }
+  animation: infinite-down 0.6s steps(10) infinite alternate;
 }
 @keyframes infinite-down {
   from {
@@ -254,11 +242,9 @@ section.home .title {
   pointer-events: none;
   margin: auto;
   max-width: -moz-fit-content;
-  max-width: -webkit-fit-content;
   max-width: fit-content;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 section.home .title h1,
@@ -650,7 +636,7 @@ section.contato form button.erro {
     font-size: 23px;
   }
   section.contato form input,
-section.contato form textarea {
+  section.contato form textarea {
     font-size: 20px;
   }
   section.contato form button {
@@ -681,7 +667,7 @@ section.contato form textarea {
     margin-bottom: 30px;
   }
   section.contato form input,
-section.contato form textarea {
+  section.contato form textarea {
     padding: 8px 15px;
     font-size: 17px;
   }

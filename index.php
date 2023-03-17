@@ -9,7 +9,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
 <html>
 
 <head>
-    <title>Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel</title>
+    <title>Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS</title>
 
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1">
@@ -100,7 +100,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                     <div class="col-lg-8 col-xl-6 col-xxl-5 pe-lg-5">
                         <h1>Oi, eu sou o Gabriel!</h1>
                         <div class="texto">
-                            Graduando em Análise e Desenvolvimento de Sistemas pela UniGoiás, trabalho a mais de 5 anos com <strong>desenvolvimento full stack para web</strong>. Tenho sólida experiência em websites institucionais, implementação de layouts responsivos, desenvolvimento de e-catálogos, <strong>sistemas web em PHP/JS</strong>, bancos de dados e sistemas de gerenciamento de conteúdo.
+                            Graduado em Análise e Desenvolvimento de Sistemas e Pós-graduando em Engenharia de Software, trabalho a mais de 5 anos com <strong>desenvolvimento full stack para web</strong>. Possuo sólida experiência em websites e catálogos virtuais, implementação de layouts responsivos, desenvolvimento de aplicações em <strong>PHP/Javascript</strong>, bancos de dados, sistemas web usando padrões de desenvolvimento MVC, APIs REST e integrações.
                         </div>
                         <div class="habilidades">
                             <h5>Linguagens que eu amo ❤️:</h5>
@@ -447,7 +447,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
             <div class="container">
                 <div class="row principal align-items-start">
                     <div class="col-lg-10 offset-lg-1">
-                        <h1>E AÍ, VAMOS DESENVOLVER ALGO JUNTOS?</h1>
+                        <h1>VAMOS DESENVOLVER ALGO JUNTOS?</h1>
                     </div>
                     <div class="col-md-4 offset-md-2 pe-md-4 pe-xxl-5">
                         <form onsubmit="enviarEmail(event)">
