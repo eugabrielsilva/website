@@ -1,7 +1,7 @@
 <?php
     // Token
     session_start();
-    $token = $_SESSION['token'] ?? "";
+    $token = $_SESSION['token'] ?? '';
     if(empty($_POST['token']) || $_POST['token'] !== $token){
         header('Location: ./');
     }
@@ -16,16 +16,16 @@
     if(!empty($_POST['nome']) && !empty($_POST['email'])){
         // Valida dados
         $nome = trim($_POST['nome']);
-        $email = trim($_POST['email']);
-        $telefone = trim($_POST['telefone'] ?? "");
-        $mensagem = trim($_POST['nome'] ?? "");
+        $email = trim(strtolower($_POST['email']));
+        $telefone = trim($_POST['telefone'] ?? '');
+        $mensagem = trim($_POST['nome'] ?? '');
 
         // Monta mensagem
         $texto = "<h3>Contato Site</h3><br>
-                    <b>Nome:</b> {$nome}<br>
-                    <b>E-mail:</b> {$email}<br>
-                    <b>Telefone:</b> {$telefone}<br>
-                    <b>Mensagem:</b><br>
+                    <strong>Nome:</strong> {$nome}<br>
+                    <strong>E-mail:</strong> {$email}<br>
+                    <strong>Telefone:</strong> {$telefone}<br>
+                    <strong>Mensagem:</strong><br>
                     {$mensagem}";
 
         // Envia e-mail
@@ -40,7 +40,7 @@
         $mail->setFrom($config['user'], 'Gabriel Silva');
         $mail->addAddress('contato@eugabrielsilva.tk', 'Gabriel Silva');
         $mail->isHTML();
-        $mail->Subject = 'Contato Site';
+        $mail->Subject = 'Contato Site | ' . $_POST['nome'];
         $mail->Body = $texto;
         $result = $mail->send();
 

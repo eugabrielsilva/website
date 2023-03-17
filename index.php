@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('11/09/2022 21:00');
+if (empty($_SESSION['token'])) $_SESSION['token'] = bin2hex(random_bytes(32));
+$version = md5('17/03/2023 15:30');
 $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mais sobre seu trabalho.');
 ?>
 
@@ -19,17 +19,17 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="imagetoolbar" content="no">
-    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
-    <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
+    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
+    <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta property="og:url" content="https://eugabrielsilva.tk">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
+    <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta property="og:image" content="ogicon.png?version=<?= $version ?>">
-    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
+    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
     <meta name="twitter:card" content="summary">
     <meta name="csrf_token" content="<?= $_SESSION['token'] ?>">
     <meta name="twitter:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
-    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com experiência em sites institucionais e sistemas em PHP.">
+    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
@@ -516,6 +516,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
 
     <!-- JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/scripts.js?version=<?= $version ?>"></script>
 </body>
