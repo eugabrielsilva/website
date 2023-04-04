@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['token'])) $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('17/03/2023 15:30');
+$version = md5('03/04/2023 22:50');
 $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mais sobre seu trabalho.');
 ?>
 
@@ -172,7 +172,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                         <div class="portfolio">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://glowie.tk" target="_blank">
+                                    <a href="https://eugabrielsilva.tk/glowie" target="_blank">
                                         <img src="assets/portfolio/glowie.png?version=<?= $version ?>">
                                         <div class="caption">Glowie Framework</div>
                                     </a>
@@ -196,6 +196,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://dentaladelar.com.br/autoridade-redes-sociais" target="_blank">
+                                        <img src="assets/portfolio/dental-lp.png?version=<?= $version ?>">
+                                        <div class="caption">Dental Adelar - Landing page</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://alreletrica.com.br" target="_blank">
                                         <img src="assets/portfolio/alr.png?version=<?= $version ?>">
                                         <div class="caption">ALR Materiais Elétricos</div>
@@ -205,6 +211,18 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     <a href="https://clinicasaomatheusgo.com.br" target="_blank">
                                         <img src="assets/portfolio/saomatheus.png?version=<?= $version ?>">
                                         <div class="caption">Clínica São Matheus</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://raddar.digital/seufuturo" target="_blank">
+                                        <img src="assets/portfolio/raddar.png?version=<?= $version ?>">
+                                        <div class="caption">Raddar Digital</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://raddar.digital/assessoria-em-marketing" target="_blank">
+                                        <img src="assets/portfolio/raddar-lp.png?version=<?= $version ?>">
+                                        <div class="caption">Raddar Digital - Landing Page</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -225,6 +243,8 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">DOM Ambientes</div>
                                     </a>
                                 </div>
+                            </div>
+                            <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br" target="_blank">
                                         <img src="assets/portfolio/prohair.png?version=<?= $version ?>">
@@ -243,8 +263,6 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Kapital Bank</div>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://amedicadescartaveis.com.br" target="_blank">
                                         <img src="assets/portfolio/amedica.png?version=<?= $version ?>">
@@ -411,6 +429,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     <a href="https://lacobulls.com.br" target="_blank">
                                         <img src="assets/portfolio/laco.png?version=<?= $version ?>">
                                         <div class="caption">Laço Bulls</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://seletagestao.com.br" target="_blank">
+                                        <img src="assets/portfolio/seleta.png?version=<?= $version ?>">
+                                        <div class="caption">Seleta Gestão</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
