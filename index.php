@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['token'])) $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('03/04/2023 22:50');
+$version = md5('19/11/2023 17:30');
 $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mais sobre seu trabalho.');
 ?>
 
@@ -14,22 +14,37 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="robots" content="index, nofollow">
+    <meta name="language" content="pt">
+    <meta http-equiv="content-language" content="pt">
+    <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="imagetoolbar" content="no">
-    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
+    <meta name="author" content="Gabriel Silva">
+    <meta name="reply-to" content="contato@eugabrielsilva.tk">
+    <meta name="rating" content="general">
+    <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
+    <meta name="abstract" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
+    <meta name="application-name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
+    <meta name="keywords" content="desenvolvedor web, PHP, Laravel, JavaScript, AngularJS, jQuery, desenvolvimento web, programação PHP, backend PHP, desenvolvimento de aplicativos PHP, desenvolvimento web com JavaScript, especialista em AngularJS, desenvolvedor front-end, programação jQuery, framework Laravel, desenvolvedor full-stack, desenvolvimento ágil Laravel, consultoria Laravel, otimização de desempenho PHP, desenvolvimento web responsivo, freelancer PHP, aplicativos web, desenvolvedor web especializado, desenvolvimento web personalizado, sites dinâmicos, desenvolvimento de aplicativos web modernos" />
+
     <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta property="og:url" content="https://eugabrielsilva.tk">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta property="og:image" content="ogicon.png?version=<?= $version ?>">
-    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
-    <meta name="twitter:card" content="summary">
-    <meta name="csrf_token" content="<?= $_SESSION['token'] ?>">
+    <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
+    <meta property="og:locale" content="pt_BR">
+
+    <meta property="twitter:image" content="ogicon.png?version=<?= $version ?>">
+    <meta property="twitter:domain" content="eugabrielsilva.tk">
+    <meta property="twitter:url" content="https://eugabrielsilva.tk">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
-    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JS.">
+    <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
+
+    <meta name="csrf_token" content="<?= $_SESSION['token'] ?>">
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
@@ -246,9 +261,45 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                             </div>
                             <div class="row collapse" id="portfolio-completo">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://srfoodsafety.com.br/consultoria-de-alimentos" target="_blank">
+                                        <img src="assets/portfolio/food.png?version=<?= $version ?>">
+                                        <div class="caption">Sr. Food Safety</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://drcalixto.com.br" target="_blank">
+                                        <img src="assets/portfolio/calixto.png?version=<?= $version ?>">
+                                        <div class="caption">Dr. Carlos Calixto</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://navesengenharia.com/financiamento-caixa" target="_blank">
+                                        <img src="assets/portfolio/naves.png?version=<?= $version ?>">
+                                        <div class="caption">Naves Engenharia</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://ti.coretecnologia.net.br" target="_blank">
+                                        <img src="assets/portfolio/core.png?version=<?= $version ?>">
+                                        <div class="caption">Core Tecnologia</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://primesegtecnologia.com.br" target="_blank">
+                                        <img src="assets/portfolio/prime.png?version=<?= $version ?>">
+                                        <div class="caption">Prime Seg</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br" target="_blank">
                                         <img src="assets/portfolio/prohair.png?version=<?= $version ?>">
                                         <div class="caption">Clínica Prohair</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://eugabrielsilva.tk/worship" target="_blank">
+                                        <img src="assets/portfolio/worship.png?version=<?= $version ?>">
+                                        <div class="caption">Worship Sounds</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -269,18 +320,18 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Amédica Descartáveis</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://institutoabracodemae.org.br" target="_blank">
                                         <img src="assets/portfolio/abraco.png?version=<?= $version ?>">
                                         <div class="caption">Instituto Abraço de Mãe</div>
                                     </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                </div> -->
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://cristianegusmao.com.br" target="_blank">
                                         <img src="assets/portfolio/cristiane.png?version=<?= $version ?>">
                                         <div class="caption">Dra. Cristiane Gusmão</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://vccont.com.br" target="_blank">
                                         <img src="assets/portfolio/vccont.png?version=<?= $version ?>">
@@ -317,12 +368,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Dr. Marcelo Caselli</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://trattofmx.com.br" target="_blank">
                                         <img src="assets/portfolio/trattofmx.png?version=<?= $version ?>">
                                         <div class="caption">Tratto Agronegócios</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://gomidias.com.br" target="_blank">
                                         <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
@@ -341,28 +392,34 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Tubisa</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://drgilbertocardoso.com.br" target="_blank">
                                         <img src="assets/portfolio/drgilberto.png?version=<?= $version ?>">
                                         <div class="caption">Dr. Gilberto Cardoso</div>
                                     </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                </div> -->
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://embalagenspiloto.com.br" target="_blank">
                                         <img src="assets/portfolio/piloto.png?version=<?= $version ?>">
                                         <div class="caption">Embalagens Piloto</div>
                                     </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                </div> -->
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://mascaraslifeprotect.com.br" target="_blank">
                                         <img src="assets/portfolio/lifeprotect.png?version=<?= $version ?>">
                                         <div class="caption">Life Protect</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://clinicacapelli.com.br" target="_blank">
                                         <img src="assets/portfolio/capelli.png?version=<?= $version ?>">
                                         <div class="caption">Clínica Capelli</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://saudepelve.com.br/ensinofisioterapiapelvica" target="_blank">
+                                        <img src="assets/portfolio/pelve.png?version=<?= $version ?>">
+                                        <div class="caption">Saúde Pelve</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -377,14 +434,14 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Minas Couros</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://goldensolenergiasolar.com.br" target="_blank">
                                         <img src="assets/portfolio/golden.png?version=<?= $version ?>">
                                         <div class="caption">Golden Sol</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="http://drluizotaviocorrea.com.br" target="_blank">
+                                    <a href="https://drluizotaviocorrea.com.br" target="_blank">
                                         <img src="assets/portfolio/drluiz.png?version=<?= $version ?>">
                                         <div class="caption">Dr. Luiz Otávio Corrêa</div>
                                     </a>
@@ -395,12 +452,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Hospital Maya</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://vendal.com.br/condominios-logisticos" target="_blank">
                                         <img src="assets/portfolio/vendal.png?version=<?= $version ?>">
                                         <div class="caption">Vendal Empreendimentos</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br/implante-capilar-fue" target="_blank">
                                         <img src="assets/portfolio/lpprohair.png?version=<?= $version ?>">
@@ -425,22 +482,16 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Viveiro Ambiental</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://lacobulls.com.br" target="_blank">
                                         <img src="assets/portfolio/laco.png?version=<?= $version ?>">
                                         <div class="caption">Laço Bulls</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://seletagestao.com.br" target="_blank">
                                         <img src="assets/portfolio/seleta.png?version=<?= $version ?>">
                                         <div class="caption">Seleta Gestão</div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://eugabrielsilva.tk/worship" target="_blank">
-                                        <img src="assets/portfolio/worship.png?version=<?= $version ?>">
-                                        <div class="caption">Worship Sounds</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
