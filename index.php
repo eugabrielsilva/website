@@ -6,7 +6,7 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <title>Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS</title>
@@ -29,15 +29,17 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
     <meta name="application-name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta name="keywords" content="desenvolvedor web, PHP, Laravel, JavaScript, AngularJS, jQuery, desenvolvimento web, programação PHP, backend PHP, desenvolvimento de aplicativos PHP, desenvolvimento web com JavaScript, especialista em AngularJS, desenvolvedor front-end, programação jQuery, framework Laravel, desenvolvedor full-stack, desenvolvimento ágil Laravel, consultoria Laravel, otimização de desempenho PHP, desenvolvimento web responsivo, freelancer PHP, aplicativos web, desenvolvedor web especializado, desenvolvimento web personalizado, sites dinâmicos, desenvolvimento de aplicativos web modernos" />
 
+    <link rel="canonical" href="https://eugabrielsilva.tk">
+
     <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta property="og:url" content="https://eugabrielsilva.tk">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
-    <meta property="og:image" content="ogicon.png?version=<?= $version ?>">
+    <meta property="og:image" content="https://eugabrielsilva.tk/assets/images/ogicon.png?version=<?= $version ?>">
     <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
     <meta property="og:locale" content="pt_BR">
 
-    <meta property="twitter:image" content="ogicon.png?version=<?= $version ?>">
+    <meta property="twitter:image" content="https://eugabrielsilva.tk/assets/images/ogicon.png?version=<?= $version ?>">
     <meta property="twitter:domain" content="eugabrielsilva.tk">
     <meta property="twitter:url" content="https://eugabrielsilva.tk">
     <meta name="twitter:card" content="summary_large_image">
@@ -57,9 +59,9 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
 
 <body>
     <!-- Preloader -->
-    <section class="preloader">
+    <!-- <section class="preloader">
         <img src="assets/images/loader.gif">
-    </section>
+    </section> -->
 
     <!-- Menu -->
     <section class="menu">
@@ -113,9 +115,9 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                         <img src="assets/images/foto.png?version=<?= $version ?>" class="foto">
                     </div>
                     <div class="col-lg-8 col-xl-6 col-xxl-5 pe-lg-5">
-                        <h1>Oi, eu sou o Gabriel!</h1>
+                        <h1>Olá, eu sou o Gabriel!</h1>
                         <div class="texto">
-                            Graduado em Análise e Desenvolvimento de Sistemas e Pós-graduando em Engenharia de Software, trabalho a mais de 5 anos com <strong>desenvolvimento full stack para web</strong>. Possuo sólida experiência em websites e catálogos virtuais, implementação de layouts responsivos, desenvolvimento de aplicações em <strong>PHP/Javascript</strong>, bancos de dados, sistemas web usando padrões de desenvolvimento MVC, APIs REST e integrações.
+                            Graduado em Análise e Desenvolvimento de Sistemas e Pós-graduado em Engenharia de Software, trabalho a mais de 5 anos com <strong>desenvolvimento full stack para web</strong>. Possuo sólida experiência em websites e catálogos virtuais, implementação de layouts responsivos, desenvolvimento de aplicações em <strong>PHP e Javascript</strong>, gerenciamento de bancos de dados, sistemas web usando padrões de desenvolvimento MVC, APIs REST e integrações com sistemas.
                         </div>
                         <div class="habilidades">
                             <h5>Linguagens que eu amo ❤️:</h5>
@@ -229,13 +231,13 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://raddar.digital/seufuturo" target="_blank">
+                                    <a href="https://raddar.digital" target="_blank">
                                         <img src="assets/portfolio/raddar.png?version=<?= $version ?>">
                                         <div class="caption">Raddar Digital</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://raddar.digital/assessoria-em-marketing" target="_blank">
+                                    <a href="https://raddar.com.br" target="_blank">
                                         <img src="assets/portfolio/raddar-lp.png?version=<?= $version ?>">
                                         <div class="caption">Raddar Digital - Landing Page</div>
                                     </a>
@@ -267,9 +269,21 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://greenparkcaldasnovas.com.br" target="_blank">
+                                        <img src="assets/portfolio/green.png?version=<?= $version ?>">
+                                        <div class="caption">Green Park</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://drcalixto.com.br" target="_blank">
                                         <img src="assets/portfolio/calixto.png?version=<?= $version ?>">
                                         <div class="caption">Dr. Carlos Calixto</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://ortizholding.com.br" target="_blank">
+                                        <img src="assets/portfolio/ortiz.png?version=<?= $version ?>">
+                                        <div class="caption">Ortiz Holding</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
@@ -279,17 +293,29 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://navesengenharia.com/imoveis-para-investir" target="_blank">
+                                        <img src="assets/portfolio/naves2.png?version=<?= $version ?>">
+                                        <div class="caption">Naves Engenharia - Landing Page</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://ti.coretecnologia.net.br" target="_blank">
                                         <img src="assets/portfolio/core.png?version=<?= $version ?>">
                                         <div class="caption">Core Tecnologia</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://sabbsolucoes.com.br/controladoria-e-contabilidade" target="_blank">
+                                        <img src="assets/portfolio/sabb.png?version=<?= $version ?>">
+                                        <div class="caption">Sabb Soluções</div>
+                                    </a>
+                                </div>
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://primesegtecnologia.com.br" target="_blank">
                                         <img src="assets/portfolio/prime.png?version=<?= $version ?>">
                                         <div class="caption">Prime Seg</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://implantecapilarprohair.com.br" target="_blank">
                                         <img src="assets/portfolio/prohair.png?version=<?= $version ?>">
@@ -308,12 +334,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                         <div class="caption">Transform Contabilidade</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://kapitalsolucoes.com.br" target="_blank">
                                         <img src="assets/portfolio/kapital.png?version=<?= $version ?>">
                                         <div class="caption">Kapital Bank</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://amedicadescartaveis.com.br" target="_blank">
                                         <img src="assets/portfolio/amedica.png?version=<?= $version ?>">
@@ -378,6 +404,12 @@ $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mai
                                     <a href="https://gomidias.com.br" target="_blank">
                                         <img src="assets/portfolio/gomidias.png?version=<?= $version ?>">
                                         <div class="caption">go!midias</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://www.jairmarcilio.adv.br/advogado-tributarista" target="_blank">
+                                        <img src="assets/portfolio/jair.png?version=<?= $version ?>">
+                                        <div class="caption">Jair Marcílio Advogados</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
