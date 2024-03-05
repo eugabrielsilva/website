@@ -38,7 +38,7 @@
         $mail->Password = $config['password'];
         $mail->Port = $config['port'];
         $mail->setFrom($config['user'], 'Gabriel Silva');
-        $mail->addAddress('contato@eugabrielsilva.tk', 'Gabriel Silva');
+        $mail->addAddress('contato@gabrielsilva.dev.br', 'Gabriel Silva');
         $mail->isHTML();
         $mail->Subject = 'Contato Site | ' . $_POST['nome'];
         $mail->Body = $texto;

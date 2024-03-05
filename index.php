@@ -23,26 +23,26 @@ header('Cache-Control: max-age=31536000');
     <meta name="format-detection" content="telephone=no">
     <meta name="imagetoolbar" content="no">
     <meta name="author" content="Gabriel Silva">
-    <meta name="reply-to" content="contato@eugabrielsilva.tk">
+    <meta name="reply-to" content="contato@gabrielsilva.dev.br">
     <meta name="rating" content="general">
     <meta name="description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
     <meta name="abstract" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
     <meta name="application-name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
     <meta name="keywords" content="desenvolvedor web, PHP, Laravel, JavaScript, AngularJS, jQuery, desenvolvimento web, programação PHP, backend PHP, desenvolvimento de aplicativos PHP, desenvolvimento web com JavaScript, especialista em AngularJS, desenvolvedor front-end, programação jQuery, framework Laravel, desenvolvedor full-stack, desenvolvimento ágil Laravel, consultoria Laravel, otimização de desempenho PHP, desenvolvimento web responsivo, freelancer PHP, aplicativos web, desenvolvedor web especializado, desenvolvimento web personalizado, sites dinâmicos, desenvolvimento de aplicativos web modernos" />
 
-    <link rel="canonical" href="https://eugabrielsilva.tk">
+    <link rel="canonical" href="https://gabrielsilva.dev.br">
 
     <meta property="og:site_name" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
-    <meta property="og:url" content="https://eugabrielsilva.tk">
+    <meta property="og:url" content="https://gabrielsilva.dev.br">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel/AngularJS">
-    <meta property="og:image" content="https://eugabrielsilva.tk/assets/images/ogicon.webp?version=<?= $version ?>">
+    <meta property="og:image" content="https://gabrielsilva.dev.br/assets/images/ogicon.webp?version=<?= $version ?>">
     <meta property="og:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
     <meta property="og:locale" content="pt_BR">
 
-    <meta property="twitter:image" content="https://eugabrielsilva.tk/assets/images/ogicon.webp?version=<?= $version ?>">
-    <meta property="twitter:domain" content="eugabrielsilva.tk">
-    <meta property="twitter:url" content="https://eugabrielsilva.tk">
+    <meta property="twitter:image" content="https://gabrielsilva.dev.br/assets/images/ogicon.webp?version=<?= $version ?>">
+    <meta property="twitter:domain" content="gabrielsilva.dev.br">
+    <meta property="twitter:url" content="https://gabrielsilva.dev.br">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gabriel Silva | Full Stack Web Developer PHP/JS/Laravel">
     <meta name="twitter:description" content="Gabriel Silva é um desenvolvedor web full stack com vasta experiência em PHP e JavaScript.">
@@ -97,7 +97,7 @@ header('Cache-Control: max-age=31536000');
                 </div>
                 <div class="contatos">
                     <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:contato@eugabrielsilva.tk" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
                     <a href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone"><i class="fab fa-instagram"></i></a>
                     <a href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/eugabrielsilva" target="_blank" class="phone"><i class="fab fa-github"></i></a>
@@ -188,7 +188,7 @@ header('Cache-Control: max-age=31536000');
                         <div class="portfolio">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://eugabrielsilva.tk/glowie" target="_blank">
+                                    <a href="https://gabrielsilva.dev.br/glowie" target="_blank">
                                         <img alt="glowie framework" loading="lazy" src="assets/portfolio/glowie.webp?version=<?= $version ?>">
                                         <div class="caption">Glowie Framework</div>
                                     </a>
@@ -322,7 +322,7 @@ header('Cache-Control: max-age=31536000');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://eugabrielsilva.tk/worship" target="_blank">
+                                    <a href="https://gabrielsilva.dev.br/worship" target="_blank">
                                         <img alt="worship sounds" loading="lazy" src="assets/portfolio/worship.webp?version=<?= $version ?>">
                                         <div class="caption">Worship Sounds</div>
                                     </a>
@@ -526,7 +526,7 @@ header('Cache-Control: max-age=31536000');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
-                                    <a href="https://eugabrielsilva.tk/colorama" target="_blank">
+                                    <a href="https://gabrielsilva.dev.br/colorama" target="_blank">
                                         <img alt="colorama" loading="lazy" src="assets/portfolio/colorama.webp?version=<?= $version ?>">
                                         <div class="caption">Colorama</div>
                                     </a>
@@ -572,11 +572,11 @@ header('Cache-Control: max-age=31536000');
                                 <strong>(62) 99835-8851</strong>
                             </span>
                         </a>
-                        <a href="mailto:contato@eugabrielsilva.tk" target="_blank" class="phone">
+                        <a href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone">
                             <i class="fas fa-envelope"></i>
                             <span>
                                 E-MAIL
-                                <strong>contato@eugabrielsilva.tk</strong>
+                                <strong>contato@gabrielsilva.dev.br</strong>
                             </span>
                         </a>
                         <a href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone">
