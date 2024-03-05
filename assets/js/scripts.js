@@ -63,3 +63,8 @@ let behavior = function(val) {
     };
 
 $('#form_telefone').mask(behavior, options);
+
+AOS.init({
+    once: true,
+    duration: 800
+});

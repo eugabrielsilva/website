@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (empty($_SESSION['token'])) $_SESSION['token'] = bin2hex(random_bytes(32));
-$version = md5('16/01/2024 09:20');
+$version = md5('05/03/2024 20:10');
 $message = urlencode('Olá Gabriel, vim pelo seu site e gostaria de conhecer mais sobre seu trabalho.');
 header('Cache-Control: max-age=31536000');
 ?>
@@ -85,22 +85,22 @@ header('Cache-Control: max-age=31536000');
     </section>
 
     <!-- Main -->
-    <div class="wrapper" data-bs-spy="scroll" data-bs-target="#menu">
+    <div class="wrapper" data-bs-offset="100" data-bs-spy="scroll" data-bs-target="#menu">
 
         <!-- Home -->
         <section class="home" id="home">
             <video defer async loading="lazy" async defer poster="assets/images/video-poster.webp?version=<?= $version ?>" src="assets/video-bg.mp4?version=<?= $version ?>" loop muted autoplay playsinline></video>
             <div class="container">
                 <div class="title">
-                    <h1>GABRIEL SILVA</h1>
-                    <h2>WEB DEVELOPER</h2>
+                    <h1 data-aos="fade-right">GABRIEL SILVA</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400">WEB DEVELOPER</h2>
                 </div>
                 <div class="contatos">
-                    <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
-                    <a href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
-                    <a href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/eugabrielsilva" target="_blank" class="phone"><i class="fab fa-github"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone"><i class="fab fa-instagram"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone"><i class="fab fa-linkedin"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://github.com/eugabrielsilva" target="_blank" class="phone"><i class="fab fa-github"></i></a>
                 </div>
                 <img alt="seta" loading="lazy" src="assets/images/arrow.webp" class="arrow">
             </div>
@@ -621,10 +621,11 @@ header('Cache-Control: max-age=31536000');
     </div>
 
     <!-- JS -->
-    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <script async defer src="assets/js/scripts.min.js?version=<?= $version ?>"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/scripts.min.js?version=<?= $version ?>"></script>
 </body>
 
 </html>
