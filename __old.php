@@ -95,6 +95,13 @@ header('Cache-Control: max-age=31536000');
                     <h1 data-aos="fade-right">GABRIEL SILVA</h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">WEB DEVELOPER</h2>
                 </div>
+                <div class="contatos">
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone"><i class="fab fa-whatsapp"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone"><i class="fas fa-envelope"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone"><i class="fab fa-instagram"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone"><i class="fab fa-linkedin"></i></a>
+                    <a data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" href="https://github.com/eugabrielsilva" target="_blank" class="phone"><i class="fab fa-github"></i></a>
+                </div>
                 <img alt="seta" loading="lazy" src="assets/images/arrow.webp" class="arrow">
             </div>
         </section>
@@ -314,12 +321,12 @@ header('Cache-Control: max-age=31536000');
                                         <div class="caption">Clínica Prohair</div>
                                     </a>
                                 </div>
-                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://gabrielsilva.dev.br/worship" target="_blank">
                                         <img alt="worship sounds" loading="lazy" src="assets/portfolio/worship.webp?version=<?= $version ?>">
                                         <div class="caption">Worship Sounds</div>
                                     </a>
-                                </div> -->
+                                </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://transform.net.br" target="_blank">
                                         <img alt="transform contabilidade" loading="lazy" src="assets/portfolio/transform.webp?version=<?= $version ?>">
@@ -518,12 +525,12 @@ header('Cache-Control: max-age=31536000');
                                         <div class="caption">Seleta Gestão</div>
                                     </a>
                                 </div>
-                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://gabrielsilva.dev.br/colorama" target="_blank">
                                         <img alt="colorama" loading="lazy" src="assets/portfolio/colorama.webp?version=<?= $version ?>">
                                         <div class="caption">Colorama</div>
                                     </a>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                         <div class="text-center">
@@ -558,11 +565,25 @@ header('Cache-Control: max-age=31536000');
                         </form>
                     </div>
                     <div class="col-md-5 ps-lg-5">
+                        <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank" class="phone">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>
+                                WHATSAPP
+                                <strong>(62) 99835-8851</strong>
+                            </span>
+                        </a>
                         <a href="mailto:contato@gabrielsilva.dev.br" target="_blank" class="phone">
                             <i class="fas fa-envelope"></i>
                             <span>
                                 E-MAIL
                                 <strong>contato@gabrielsilva.dev.br</strong>
+                            </span>
+                        </a>
+                        <a href="https://instagram.com/eugabrielsilva__" target="_blank" class="phone">
+                            <i class="fab fa-instagram"></i>
+                            <span>
+                                INSTAGRAM
+                                <strong>@EUGABRIELSILVA__</strong>
                             </span>
                         </a>
                         <a href="https://linkedin.com/in/gabrieloliveira30" target="_blank" class="phone">
@@ -589,6 +610,13 @@ header('Cache-Control: max-age=31536000');
             <div class="container">
                 © Gabriel Silva - <?= date('Y') ?>
             </div>
+        </section>
+
+        <!-- WhatsApp -->
+        <section class="whatsapp-button">
+            <a href="https://wa.me/5562998358851?text=<?= $message ?>" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </section>
     </div>
 
