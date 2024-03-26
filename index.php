@@ -254,12 +254,12 @@ header('Cache-Control: max-age=31536000');
                                 </div>
                             </div>
                             <div class="row collapse" id="portfolio-completo">
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://srfoodsafety.com.br/consultoria-de-alimentos" target="_blank">
                                         <img alt="sr. food safety" loading="lazy" src="assets/portfolio/food.webp?version=<?= $version ?>">
                                         <div class="caption">Sr. Food Safety</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://greenparkcaldasnovas.com.br" target="_blank">
                                         <img alt="green park" loading="lazy" src="assets/portfolio/green.webp?version=<?= $version ?>">
@@ -357,6 +357,24 @@ header('Cache-Control: max-age=31536000');
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://asmepro.com.br" target="_blank">
+                                        <img alt="asmepro" loading="lazy" src="assets/portfolio/asmepro.webp?version=<?= $version ?>">
+                                        <div class="caption">Asmepro</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://equiparlocadora.com.br" target="_blank">
+                                        <img alt="equipar" loading="lazy" src="assets/portfolio/equipar.webp?version=<?= $version ?>">
+                                        <div class="caption">Equipar Locadora</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://linemedic.com.br" target="_blank">
+                                        <img alt="line medic" loading="lazy" src="assets/portfolio/line.webp?version=<?= $version ?>">
+                                        <div class="caption">Line Medic</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://clinicalipohd.com.br" target="_blank">
                                         <img alt="clínica hd" loading="lazy" src="assets/portfolio/clinicahd.webp?version=<?= $version ?>">
                                         <div class="caption">Clínica HD</div>
@@ -398,16 +416,22 @@ header('Cache-Control: max-age=31536000');
                                         <div class="caption">go!midias</div>
                                     </a>
                                 </div>
-                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                <!-- <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://www.jairmarcilio.adv.br/advogado-tributarista" target="_blank">
                                         <img alt="jair marcílio advogados" loading="lazy" src="assets/portfolio/jair.webp?version=<?= $version ?>">
                                         <div class="caption">Jair Marcílio Advogados</div>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
                                     <a href="https://flexbanner.com.br" target="_blank">
                                         <img alt="flex banner" loading="lazy" src="assets/portfolio/flexbanner.webp?version=<?= $version ?>">
                                         <div class="caption">Flex Banner</div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 col-xxl-3">
+                                    <a href="https://bikpay.com.br" target="_blank">
+                                        <img alt="bikpay" loading="lazy" src="assets/portfolio/bikpay.webp?version=<?= $version ?>">
+                                        <div class="caption">BikPay</div>
                                     </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-4 col-xxl-3">
